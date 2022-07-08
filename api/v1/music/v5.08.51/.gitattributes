@@ -1,0 +1,2 @@
+nonroot.apk filter=lfs diff=lfs merge=lfs -text
+root.apk filter=lfs diff=lfs merge=lfs -text

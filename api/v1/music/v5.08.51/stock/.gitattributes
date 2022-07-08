@@ -1,0 +1,4 @@
+arm64_v8a.apk filter=lfs diff=lfs merge=lfs -text
+armeabi_v7a.apk filter=lfs diff=lfs merge=lfs -text
+x86.apk filter=lfs diff=lfs merge=lfs -text
+x86_64.apk filter=lfs diff=lfs merge=lfs -text
