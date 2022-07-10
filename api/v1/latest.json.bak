@@ -7,8 +7,8 @@
 		"changelog": "- Support for unofficial Vanced downloads"
 	},
   	"vanced": {
-    "version": "17.26.34",
-    "versionCode": 1530254784,
+    "version": "17.27.33",
+    "versionCode": 1530383808,
     "themes": ["dark", "black"],
     "langs": [
       "af",
@@ -86,7 +86,7 @@
       "zh",
       "zu"
     ],
-    "changelog": "This is an unofficial version and is in beta! \n\n- Bumped base \n- Fixed bug: (ROOT version only) Buttons cannot be placed at the bottom of the player \n- Fixed bug: (ROOT version only) Enable voting and Enable new segment adding do not work (SponsorBlock) \n- Fixed bug: Despite changing the visibility setting of \"End Screens\", the setting is not reflected normally until the app is restarted \n\nKNOWN ISSUES: \n- RYD does not work \n- Unable to place button on bottom of player \n- HDR Brightness setting not being applied properly (on some devices) \n- In case of ROOT version, only some languages are supported (if installation fails, try installing another language)"
+    "changelog": "This is an unofficial version and is in beta! \n\n- Bumped base \n- Removed \"Under player\" and \"Both\" from the button position options \n- Restore some XGlobals values to fix HDR settings (test required) \n- Restore some AndroidManifest values to fix the installation problem of armeabi-v7a architecture (test required) \n- Supports all 74 language packs even in the ROOT version \n\nKNOWN ISSUES: \n- RYD does not work \n- HDR Brightness setting not being applied properly (on some devices) \n- For NON-ROOT version, microg must be installed"
     },	"music": {
 		"version": "5.08.51",
 		"versionCode": 50851200,
