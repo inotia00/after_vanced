@@ -1,10 +1,10 @@
 {
 	"is_microg_broken": false,
 	"manager": {
-		"version": "2.6.2",
-		"versionCode": 262,
+		"version": "2.6.3",
+		"versionCode": 220712,
 		"url": "https://github.com/inotia00/VancedManager/releases/latest/download/manager.apk",
-		"changelog": "- Support for unofficial Vanced downloads"
+		"changelog": "- The first version that migrated Custom Vanced Manager to GitHub \n- Apply latest commit from TeamVanced/VancedManager \n- Firebase Removed \n- Update some strings \n- Use the latest build tools \n- App optimization \n- Add Github Pages to Social Media \n- Change versionCode (262 → 220712)"
 	},
   	"vanced": {
     "version": "17.27.33",
