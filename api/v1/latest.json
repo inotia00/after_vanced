@@ -7,8 +7,8 @@
 		"changelog": "- The first version that migrated Custom Vanced Manager to GitHub \n- Apply latest commit from TeamVanced/VancedManager \n- Firebase Removed \n- Update some strings \n- Use the latest build tools \n- App optimization \n- Add Github Pages to Social Media \n- Change versionCode (262 → 220712)"
 	},
   	"vanced": {
-    "version": "17.27.33",
-    "versionCode": 1530383808,
+    "version": "17.26.34",
+    "versionCode": 1530254784,
     "themes": ["dark", "black"],
     "langs": [
       "af",
