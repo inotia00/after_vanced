@@ -2,9 +2,9 @@
 	"is_microg_broken": false,
 	"manager": {
 		"version": "2.6.3",
-		"versionCode": 220712,
+		"versionCode": 220714,
 		"url": "https://github.com/inotia00/VancedManager/releases/latest/download/manager.apk",
-		"changelog": "- The first version that migrated Custom Vanced Manager to GitHub \n- Apply latest commit from TeamVanced/VancedManager \n- Firebase Removed \n- Update some strings \n- Use the latest build tools \n- App optimization \n- Add Github Pages to Social Media \n- Change versionCode (262 → 220712)"
+		"changelog": "- Gradle update /n- Fix the problem that VirusTotal detects Trojan when building with BuildType set to 'release' /n- Change app signature"
 	},
   	"vanced": {
     "version": "17.26.34",
