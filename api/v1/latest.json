@@ -2,13 +2,13 @@
 	"is_microg_broken": false,
 	"manager": {
 		"version": "2.6.3",
-		"versionCode": 220712,
+		"versionCode": 220714,
 		"url": "https://github.com/inotia00/VancedManager/releases/latest/download/manager.apk",
-		"changelog": "- The first version that migrated Custom Vanced Manager to GitHub \n- Apply latest commit from TeamVanced/VancedManager \n- Firebase Removed \n- Update some strings \n- Use the latest build tools \n- App optimization \n- Add Github Pages to Social Media \n- Change versionCode (262 → 220712)"
+		"changelog": "- Gradle update /n- Fix the problem that VirusTotal detects Trojan when building with BuildType set to 'release'"
 	},
   	"vanced": {
-    "version": "17.26.34",
-    "versionCode": 1530254784,
+    "version": "17.28.32",
+    "versionCode": 1530512832,
     "themes": ["dark", "black"],
     "langs": [
       "af",
@@ -86,7 +86,7 @@
       "zh",
       "zu"
     ],
-    "changelog": "This is an unofficial version and is in beta! \n\n- Bumped base \n- Removed \"Under player\" and \"Both\" from the button position options \n- Restore some XGlobals values to fix HDR settings (test required) \n- Restore some AndroidManifest values to fix the installation problem of armeabi-v7a architecture (test required) \n- Supports all 74 language packs even in the ROOT version \n\nKNOWN ISSUES: \n- RYD does not work \n- HDR Brightness setting not being applied properly (on some devices) \n- For NON-ROOT version, microg must be installed"
+    "changelog": "This is an unofficial version and is in beta! \n\n- Bumped base \n- Fix RYD not working when 'old layout' setting is on (more testing may be needed) \n- Reimplementation of hide comment function \n- Added 'recommend for you' removal option \n- Removed 'old style video quality settings' option (because sometimes it doesn't work) \n- Apply Black Theme to Splash Screen as well \n- Reset some preset settings \n- Some Vanced integration update \n\nKNOWN ISSUES: \n- 'old style video quality settings' does not work \n- Home screen ads still appear on some devices \n- RYD does not work \n- HDR Brightness settings does not work on some devices \n- For NON-ROOT version, microg must be installed"
     },	"music": {
 		"version": "5.08.51",
 		"versionCode": 50851200,
