@@ -7,8 +7,8 @@
 		"changelog": "- Gradle update /n- Fix the problem that VirusTotal detects Trojan when building with BuildType set to 'release'"
 	},
   	"vanced": {
-    "version": "17.28.32",
-    "versionCode": 1530512832,
+    "version": "v17.28.34(RC)",
+    "versionCode": 1530516928,
     "themes": ["dark", "black"],
     "langs": [
       "af",
@@ -86,7 +86,7 @@
       "zh",
       "zu"
     ],
-    "changelog": "This is an unofficial version and is in beta! \n\n- Bumped base \n- Fix RYD not working when 'old layout' setting is on (more testing may be needed) \n- Reimplementation of hide comment function \n- Added 'recommend for you' removal option \n- Removed 'old style video quality settings' option (because sometimes it doesn't work) \n- Apply Black Theme to Splash Screen as well \n- Reset some preset settings \n- Some Vanced integration update \n\nKNOWN ISSUES: \n- 'old style video quality settings' does not work \n- Home screen ads still appear on some devices \n- RYD does not work \n- HDR Brightness settings does not work on some devices \n- For NON-ROOT version, microg must be installed"
+    "changelog": "This is an unofficial version and is in beta! \n\n- Bumped base \n- Fix RYD (it now works even without 'Old Layout' setting turned on) \n- Restore 'old style video quality settings' \n- Restore all vanced settings that have been deleted \n- Restore all preset settings \n- Added setting to hide 'Emergency Box', 'Info Panel', 'Latest Posts', 'Medical Panel', 'Paid Content', 'Suggestion' \n- rewritten vanced-integraions \n- Update some drawable resources \n- Russian translation update \n- (ROOT version) Splash Screen is restored \n- (NON-ROOT version) Splash Icon is restored \n\nKNOWN ISSUES: \n- 'old style video quality settings' does not work \n- To create a button at the bottom of the player, you must turn on 'Old Layout' \n- To fix RYD, I refer to revanced-integrations, so it has the same problem as ReVanced's RYD \n- Ads still appear to appear on some devices \n- HDR Brightness settings does not work on some devices \n- For NON-ROOT version, microg must be installed"
     },	"music": {
 		"version": "5.08.51",
 		"versionCode": 50851200,
